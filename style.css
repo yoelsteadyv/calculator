@@ -4,18 +4,26 @@
   background-color: black;
   margin: auto;
 }
+
 table {
   margin: auto;
 }
+
 .btn-operator {
   padding: 10px;
   width: 3em;
 }
+
 .btn-number {
   padding: 10px;
   width: 3em;
 }
+
 .btn-equal {
   height: 85px;
   width: 3em;
+}
+
+.display-screen {
+  color: white;
 }
