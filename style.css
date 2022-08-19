@@ -1,3 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  transition: all 0, 5s;
+}
+
+
+
 .container {
   width: 100vh;
   height: 100vh;
@@ -9,16 +19,36 @@ table {
   margin: auto;
 }
 
-/* button {
-  padding: 10px;
-  width: 3em;
+#display {
+  margin: 0 10px;
+  height: 150px;
+  width: auto;
+  max-width: 100;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+  margin-bottom: 20px;
+  overflow-x: scroll;
 }
-#equal {
+
+button {
+  padding: 60px;
+  width: 60px;
+  border: 0;
+  border-radius: 30px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+/* #equal {
   padding: 31px;
   width: 3em;
 } */
 
-.btn-operator {
+/* .btn-operator {
   padding: 10px;
   width: 3em;
 }
@@ -31,8 +61,12 @@ table {
 .btn-equal {
   height: 82px;
   width: 3em;
-}
+} */
 
 .display-screen {
-  color: white;
+  color: black;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
