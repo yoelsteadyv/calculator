@@ -21,3 +21,4 @@ buttons.forEach((item) => {
 
 const calculator = document.querySelector(".calculator");
 
+
